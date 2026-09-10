@@ -1,0 +1,21 @@
+
+# Ignore Terraform infrastructure files
+terraform/
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+.terraform.lock.hcl
+
+# Ignore Git configuration
+.git
+.gitignore
+
+# Ignore local dev files and OS files
+.DS_Store
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+venv/
