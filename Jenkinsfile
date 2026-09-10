@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        DOCKER_IMAGE = "[[DOCKERHUB_USERNAME=\"ahmed3015\"]]/devops-pipeline-app"
+        DOCKER_IMAGE = "ahmed3015/devops-pipeline-app"
     }
 
     stages {
